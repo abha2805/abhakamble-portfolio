@@ -1,5 +1,3 @@
-# abhakamble.github.io
-
-
-
-welcome
+title: [The title of your site]
+tagline: [A very short description of your site's purpose, used as subtitle]
+description: [A short description of your site's purpose (e.g. for search engines)]
