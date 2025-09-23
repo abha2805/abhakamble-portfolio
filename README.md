@@ -2,8 +2,8 @@
 **Technical Skills: AWS, Docker, Kubernetes, Terraform, RedHat Linux**
 
 ## Education
--	Post-Graduate Certificate in Project Management | Humber College Institute of Technology & Advanced Learning, Canada (April 2025)
--	Post-Graduate Certificate in Cloud Computing | Humber College Institute of Technology & Advanced Learning, Canada (April 2024)
+-	Post-Graduate Certificate in Project Management  | Humber College Institute of Technology & Advanced Learning, Canada (April 2025)
+-	Post-Graduate Certificate in Cloud Computing     | Humber College Institute of Technology & Advanced Learning, Canada (April 2024)
 - Bachelor of Engineering - Information Technology | Savitribai Phule Pune University, India (May 2017)
 
 ## Work Experience
