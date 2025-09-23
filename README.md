@@ -1,5 +1,4 @@
-# Heading
-Data Scientist
+# Cloud Engineer
 Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
 
 Education
