@@ -1,5 +1,6 @@
 title: Abha Kamble
-logo: /assets/img/headshot_circle.png
+#logo: /assets/img/headshot_circle.png
 #description: text below image
 #show_downloads: true
+remote_theme: pages-themes/midnight@v0.2.0
 theme: jekyll-remote-theme
