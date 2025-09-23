@@ -1,122 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Abha Kamble | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abha Kamble | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Navigation -->
-<!-- Navigation -->
-<nav>
-  <ul>
-    <li><a href="#about">About</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#certificates">Certificates</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Abha Kamble</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#metrics">Metrics</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-container">
+            <h1>Hello, I'm <span>Abha Kamble</span></h1>
+            <p>Cloud & DevOps Engineer | OpenText Specialist | Automation Enthusiast</p>
+            <a href="#projects" class="btn-primary">See My Work</a>
+        </div>
+    </section>
 
-  <!-- Header -->
-  <header>
-    <h1>Hi, I'm Abha 👋</h1>
-    <p>DevOps Engineer | Cloud | Kubernetes | Terraform | AWS</p>
-  </header>
+    <!-- Metrics Section -->
+    <section id="metrics">
+        <div class="container metrics-container">
+            <div class="metric">
+                <h2>6+</h2>
+                <p>Years Experience</p>
+            </div>
+            <div class="metric">
+                <h2>20+</h2>
+                <p>Projects Completed</p>
+            </div>
+            <div class="metric">
+                <h2>10</h2>
+                <p>Certifications</p>
+            </div>
+            <div class="metric">
+                <h2>5</h2>
+                <p>Published Blogs</p>
+            </div>
+        </div>
+    </section>
 
-  <!-- About -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am a DevOps/Cloud Engineer with experience in automation, infrastructure as code, Kubernetes, and CI/CD. Passionate about building scalable systems and continuous learning.</p>
-  </section>
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">Kubernetes</div>
+                <div class="skill">Docker</div>
+                <div class="skill">Terraform</div>
+                <div class="skill">AWS & Azure</div>
+                <div class="skill">Python & Go</div>
+                <div class="skill">CI/CD & GitHub Actions</div>
+                <div class="skill">Monitoring & Logging</div>
+                <div class="skill">OpenText Platforms</div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Work Experience -->
-  <section id="experience">
-    <h2>Work Experience</h2>
-    <div class="job">
-      <h3>Supervisor (Automation & OpenText) – BelWo</h3>
-      <p><em>2025 – Present | Canada</em></p>
-      <ul>
-        <li>Led a team to automate workflows and enhance DevOps practices.</li>
-        <li>Implemented Infrastructure as Code using Terraform & AWS.</li>
-        <li>Managed client communication and requirement gathering.</li>
-      </ul>
-    </div>
+    <!-- Featured Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project Title 1</h3>
+                    <p>Short description of the project highlighting technologies used.</p>
+                    <a href="#" class="btn-secondary">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project Title 2</h3>
+                    <p>Short description of the project highlighting technologies used.</p>
+                    <a href="#" class="btn-secondary">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Project Title 3</h3>
+                    <p>Short description of the project highlighting technologies used.</p>
+                    <a href="#" class="btn-secondary">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="job">
-      <h3>DevOps Engineer – Toronto Transit Commission (Capstone Project)</h3>
-      <p><em>2025 | Toronto, ON</em></p>
-      <ul>
-        <li>Audited EAM program using PMBOK® project management practices.</li>
-        <li>Improved processes across risk, quality, and scope management.</li>
-        <li>Collaborated with project sponsors to deliver key insights.</li>
-      </ul>
-    </div>
-  </section>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container contact-container">
+            <h2 class="section-title">Contact Me</h2>
+            <p>Email: <a href="mailto:abhakamble28@gmail.com">abhakamble28@gmail.com</a></p>
+            <p>Phone: +1 (437) 663-3503</p>
+        </div>
+    </section>
 
-  <!-- Education -->
-  <section id="education">
-    <h2>Education</h2>
-    <div class="edu">
-      <h3>Post-Graduate Certificate – Cloud Computing</h3>
-      <p><em>2023 – 2024 | Canada</em></p>
-    </div>
+    <script>
+        const burger = document.querySelector('.burger');
+        const navLinks = document.querySelector('.nav-links');
 
-    <div class="edu">
-      <h3>Bachelor of Engineering – Information Technology</h3>
-      <p><em>2017 – 2021 | India</em></p>
-    </div>
-  </section>
-
-  <!-- Certificates -->
-  <section id="certificates">
-    <h2>Certificates</h2>
-    <div class="cert-badges">
-      <a href="https://www.credly.com/" target="_blank">
-        <img src="https://img.shields.io/badge/AWS_Solutions_Architect-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS Solutions Architect">
-      </a>
-
-      <a href="https://www.credly.com/" target="_blank">
-        <img src="https://img.shields.io/badge/Terraform_Associate-844FBA?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform Associate">
-      </a>
-
-      <a href="https://www.credly.com/" target="_blank">
-        <img src="https://img.shields.io/badge/Red_Hat_Certified-EE0000?style=for-the-badge&logo=red-hat&logoColor=white" alt="Red Hat Certified">
-      </a>
-
-      <a href="https://www.credly.com/" target="_blank">
-        <img src="https://img.shields.io/badge/CKA_Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes CKA">
-      </a>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card">
-        <img src="https://via.placeholder.com/300x150" alt="Project 1">
-        <h3>Project 1</h3>
-        <p>Short description of your DevOps/Cloud project.</p>
-        <a href="https://github.com/your-username/project1">🔗 View on GitHub</a>
-      </div>
-
-      <div class="project-card">
-        <img src="https://via.placeholder.com/300x150" alt="Project 2">
-        <h3>Project 2</h3>
-        <p>Another project showcasing Kubernetes/Terraform skills.</p>
-        <a href="https://github.com/your-username/project2">🔗 View on GitHub</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:abhakamble28@gmail.com">abhakamble28@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/your-linkedin">linkedin.com/in/your-linkedin</a></p>
-  </section>
+        burger.addEventListener('click', () => {
+            navLinks.classList.toggle('nav-active');
+            burger.classList.toggle('toggle');
+        });
+    </script>
 </body>
 </html>
