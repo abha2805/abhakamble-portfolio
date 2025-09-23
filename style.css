@@ -32,3 +32,24 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+
+.job, .edu {
+  margin-bottom: 1.5rem;
+}
+
+.job h3, .edu h3 {
+  margin: 0;
+  color: #1e90ff;
+}
+
+.job p, .edu p {
+  margin: 0.2rem 0 0.8rem 0;
+  font-style: italic;
+  color: #555;
+}
+
+ul {
+  margin-top: 0.5rem;
+}
+
